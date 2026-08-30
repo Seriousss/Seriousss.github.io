@@ -1,115 +1,95 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
-}
-
-@book{einstein1956investigations,
+@article{dehghan2025rust,
+  preview     = {rust.png},
+  code        = {https://github.com/Intelligent-CAT-Lab/Rustine},
+  abbr        = {Preprint},
+  title       = {Translating Large-Scale C Repositories to Idiomatic Rust},
+  author      = {Dehghan*, Saman and Sun*, Tianran and Wu, Tianxiang and Li, Zihan and Jabbarvand, Reyhaneh},
+  journal     = {arXiv preprint},
+  year        = {2025},
+  month       = nov,
+  arxiv       = {2511.20617},
   bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+  selected    = {true},
 }
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
+@inproceedings{fang2025lastingbench,
+  preview     = {lastingbench.png},
+  abbr        = {EMNLP Findings},
+  title       = {LastingBench: Defend Benchmarks Against Knowledge Leakage},
+  author      = {Fang*, Yixiong and Sun*, Tianran and Shi, Yuling and Wang, Min and Gu, Xiaodong},
+  booktitle   = {EMNLP Findings},
+  code        = {https://github.com/Seriousss/lastingbench},
+  pages       = {18304--18317},
+  address     = {Suzhou, China},
+  year        = {2025},
+  month       = nov,
+  html        = {https://aclanthology.org/2025.findings-emnlp.993/},
+  arxiv       = {2506.21614},
+  selected    = {true},
+  bibtex_show = {true}
+}
+
+@article{wei2025quokka,
+  preview     = {quokka.png},
+  abbr        = {COLM},
+  title       = {Quokka: Accelerating Program Verification with LLMs via Invariant Synthesis},
+  author      = {Wei, Anjiang and Sun, Tianran and Suresh, Tarun and Wu, Haoze and Wang, Ke and Aiken, Alex},
+  journal     = {COLM 2026},
+  year        = {2026},
+  booktitle   = {COLM},
+  month       = Oct,
+  arxiv       = {2509.21629},
+  code        = {https://github.com/Anjiang-Wei/Quokka},
   bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
+  selected    = {true},
+  abstract    = {Program verification relies on loop invariants, yet automatically discovering strong invariants remains a long-standing challenge. We investigate whether large language models (LLMs) can accelerate program verification by generating useful loop invariants. We introduce Quokka, a framework for LLM-based invariant synthesis with soundness guarantees and state-of-the-art performance. Unlike prior work that treats LLM outputs as noisy symbolic material requiring substantial post-processing, Quokka adopts a simpler algorithm design that directly validates whether each LLM-generated invariant helps prove the target assertion. We construct a benchmark of 866 evaluation instances and 3589 training instances derived from SV-COMP, and evaluate 9 LLMs spanning multiple model families. We demonstrate that supervised fine-tuning and Best-of-N sampling yield measurable improvements, and we show that Quokka consistently outperforms prior LLM-based verifiers. Our code and data are publicly available at https://github.com/Anjiang-Wei/Quokka}
 }
 
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
-}
-
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
-}
-
-@article{einstein1905photoelectriceffect,
+@article{wei2025astra,
+  preview     = {astra.png},
+  abbr        = {DL4C@NeurIPS},
+  title       = {Astra: A Multi-Agent System for GPU Kernel Performance Optimization},
+  author      = {Wei, Anjiang and Sun, Tianran and Seenichamy, Yogesh and Song, Hang and Ouyang, Anne and Mirhoseini, Azalia and Wang, Ke and Aiken, Alex},
+  journal     = {DL4C@NeurIPS 2025},
+  year        = {2025},
+  month       = dec,
+  arxiv       = {2509.07506},
+  code        = {https://github.com/Anjiang-Wei/Astra},
   bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
+  selected    = {true},
+  abstract    = {GPU kernel optimization has long been a central challenge at the intersection of high-performance computing and machine learning. Efficient kernels are crucial for accelerating large language model (LLM) training and serving, yet attaining high performance typically requires extensive manual tuning. Compiler-based systems reduce some of this burden, but still demand substantial manual design and engineering effort. Recently, researchers have explored using LLMs for GPU kernel generation, though prior work has largely focused on translating high-level PyTorch modules into CUDA code. In this work, we introduce Astra, the first LLM-based multi-agent system for GPU kernel optimization. Unlike previous approaches, Astra starts from existing CUDA implementations extracted from SGLang, a widely deployed framework for serving LLMs, rather than treating PyTorch modules as the specification. Within Astra, specialized LLM agents collaborate through iterative code generation, testing, profiling, and planning to produce kernels that are both correct and high-performance. On kernels from SGLang, Astra achieves an average speedup of 1.32x using zero-shot prompting with OpenAI o4-mini. A detailed case study further demonstrates that LLMs can autonomously apply loop transformations, optimize memory access patterns, exploit CUDA intrinsics, and leverage fast math operations to yield substantial performance gains. Our work highlights multi-agent LLM systems as a promising new paradigm for GPU kernel optimization. Our code is publicly available at https://github.com/Anjiang-Wei/Astra.}
 }
 
-@book{przibram1967letters,
+@inproceedings{zhang2025popilot,
+  preview     = {popilot.png},
+  abbr        = {ACL Findings},
+  title       = {Building A Proof-Oriented Programmer That Is 64\% Better Than GPT-4o Under Data Scarcity},
+  author      = {Zhang, Dylan and Wang, Justin and Sun, Tianran},
+  booktitle   = {ACL Findings 2025},
+  pages       = {23101--23118},
+  address     = {Vienna, Austria},
+  year        = {2025},
+  month       = jul,
+  html        = {https://aclanthology.org/2025.findings-acl.1186/},
+  arxiv       = {2502.11901},
   bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
+  selected    = {true},
+  abstract    = {Existing LMs struggle with proof-oriented programming due to data scarcity, which manifest in two key ways: (1) a lack of sufficient corpora for proof-oriented programming languages such as F*, and (2) the absence of large-scale, project-level proof-oriented implementations that can teach the model the intricate reasoning process when performing proof-oriented programming. We present the first on synthetic data augmentation for project level proof oriented programming for both generation and repair. Our method addresses data scarcity by synthesizing basic proof-oriented programming problems for proficiency in that language; incorporating diverse coding data for reasoning capability elicitation and creating new proofs and repair data within existing repositories. This approach enables language models to both synthesize and repair proofs for function- and repository-level code. We show that our fine-tuned 14B parameter model, PoPilot, can exceed the performance of the models that outperforms GPT-4o in project-level proof-oriented programming by 64\% relative margin, and can improve GPT-4o's performance by 54\% by repairing its outputs over GPT-4o's self-repair.}
+}
+
+@article{fang2025attentionrag,
+  preview     = {attentionrag.png},
+  abbr        = {KnowFM@ACL},
+  title       = {AttentionRAG: Attention-Guided Context Pruning in Retrieval-Augmented Generation},
+  author      = {Fang*, Yixiong and Sun*, Tianran and Shi, Yuling and Gu, Xiaodong},
+  journal     = {KnowFM@ACL 2025},
+  year        = {2025},
+  month       = Jul,
+  arxiv       = {2503.10720},
+  bibtex_show = {true},
+  selected    = {true},
+  abstract    = {While RAG demonstrates remarkable capabilities in LLM applications, its effectiveness is hindered by the ever-increasing length of retrieved contexts, which introduces information redundancy and substantial computational overhead. Existing context pruning methods, such as LLMLingua, lack contextual awareness and offer limited flexibility in controlling compression rates, often resulting in either insufficient pruning or excessive information loss. In this paper, we propose AttentionRAG, an attention-guided context pruning method for RAG systems. The core idea of AttentionRAG lies in its attention focus mechanism, which reformulates RAG queries into a next-token prediction paradigm. This mechanism isolates the query's semantic focus to a single token, enabling precise and efficient attention calculation between queries and retrieved contexts. Extensive experiments on LongBench and Babilong benchmarks show that AttentionRAG achieves up to 6.3x context compression while outperforming LLMLingua methods by around 10\% in key metrics.}
 }
