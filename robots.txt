@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://seriousss.github.io/sitemap.xml
+Sitemap: https://seriousss.github.io/website/sitemap.xml
